@@ -6,6 +6,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-rails'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()
 
