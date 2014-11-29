@@ -19,3 +19,7 @@ set shiftwidth=2
 set expandtab
 
 nmap <leader>l :set list!<CR> "toggles showing whitespace characters
+
+"vim-gitgutter options
+let g:gitgutter_sign_column_always = 1 "displays the sign column even if no git differences
+highlight clear SignColumn "sets the sign column to match the normal line background
