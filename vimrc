@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 
@@ -17,6 +18,7 @@ set nohlsearch "turns off search highlighting
 set tabstop=2 "no tabs, tabs instead are 2 spaces
 set shiftwidth=2
 set expandtab
+set noswapfile
 
 nmap <leader>l :set list!<CR> "toggles showing whitespace characters
 
