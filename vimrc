@@ -8,10 +8,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
 filetype plugin indent on
+syntax on
 
 set nohlsearch "turns off search highlighting
 
