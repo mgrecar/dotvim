@@ -9,6 +9,11 @@ Plugin 'tpope/vim-rails'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'othree/yajs.vim'
+Plugin 'jason0x43/vim-js-indent'
+Plugin 'mxw/vim-jsx'
+Plugin 'elzr/vim-json'
+Plugin 'vim-ruby/vim-ruby'
 
 call vundle#end()
 
