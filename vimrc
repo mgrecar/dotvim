@@ -27,6 +27,10 @@ set shiftwidth=2
 set expandtab
 set noswapfile
 
+"folding options
+set fdm=syntax "default method is set to syntax based folding, provided by vim-ruby plugin 
+set nofen "disable folding by default, I prefer to turn it on when desired via 'zi' or ':set fen'
+
 nmap <leader>l :set list!<CR> "toggles showing whitespace characters
 
 "vim-gitgutter options
@@ -39,3 +43,5 @@ highlight clear SignColumn "sets the sign column to match the normal line backgr
 
 " Strip trailing whitespace on save
 autocmd BufWritePre *.rb,*.py,*.js,*.coffee,*.go :%s/\s\+$//e
+
+:color elflord
