@@ -14,6 +14,8 @@ Plugin 'jason0x43/vim-js-indent'
 Plugin 'mxw/vim-jsx'
 Plugin 'elzr/vim-json'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'hashivim/vim-vagrant'
+Plugin 'hashivim/vim-terraform'
 
 call vundle#end()
 
