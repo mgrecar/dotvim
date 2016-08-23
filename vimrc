@@ -46,4 +46,4 @@ highlight clear SignColumn "sets the sign column to match the normal line backgr
 " Strip trailing whitespace on save
 autocmd BufWritePre *.rb,*.py,*.js,*.coffee,*.go :%s/\s\+$//e
 
-:color elflord
+colors mizore
