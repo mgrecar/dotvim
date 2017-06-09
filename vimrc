@@ -16,6 +16,7 @@ Plugin 'elzr/vim-json'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'hashivim/vim-vagrant'
 Plugin 'hashivim/vim-terraform'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 
