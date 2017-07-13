@@ -38,6 +38,7 @@ nmap <leader>l :set list!<CR> "toggles showing whitespace characters
 
 "vim-gitgutter options
 let g:gitgutter_sign_column_always = 1 "displays the sign column even if no git differences
+let g:gitgutter_max_signs = 9999 "sets the number of signs to display (lines of git diff in a file).
 highlight clear SignColumn "sets the sign column to match the normal line background
 
 " Show trailing whitespace
