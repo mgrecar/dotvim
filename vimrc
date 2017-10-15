@@ -17,6 +17,8 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'hashivim/vim-vagrant'
 Plugin 'hashivim/vim-terraform'
 Plugin 'rust-lang/rust.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 
@@ -46,7 +48,7 @@ highlight clear SignColumn "sets the sign column to match the normal line backgr
 " match ExtraWhitespace /\s\+$/
 
 " Strip trailing whitespace on save
-autocmd BufWritePre *.rb,*.py,*.js,*.coffee,*.go :%s/\s\+$//e
+autocmd BufWritePre *.md,*.rb,*.py,*.js,*.coffee,*.go :%s/\s\+$//e
 " Auto correct my fatal flaw
 autocmd BufWritePre *_spec.rb :%s/\srecieve(/ receive(/e
 
