@@ -52,7 +52,7 @@ highlight clear SignColumn "sets the sign column to match the normal line backgr
 " match ExtraWhitespace /\s\+$/
 
 " Strip trailing whitespace on save
-autocmd BufWritePre *.md,*.rb,*.py,*.js,*.coffee,*.go :%s/\s\+$//e
+autocmd BufWritePre *.md,*.rb,*.py,*.js,*.coffee,*.go,*.rake :%s/\s\+$//e
 " Auto correct my fatal flaw
 autocmd BufWritePre *_spec.rb :%s/\srecieve(/ receive(/e
 
