@@ -57,3 +57,7 @@ autocmd BufWritePre *.md,*.rb,*.py,*.js,*.coffee,*.go,*.rake :%s/\s\+$//e
 autocmd BufWritePre *_spec.rb :%s/\srecieve(/ receive(/e
 
 colors mizore
+
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+au FileType xml foldopen!
