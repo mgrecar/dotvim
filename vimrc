@@ -36,7 +36,8 @@ set noswapfile
 set fdm=syntax "default method is set to syntax based folding, provided by vim-ruby plugin 
 set nofen "disable folding by default, I prefer to turn it on when desired via 'zi' or ':set fen'
 
-nmap <leader>l :set list!<CR> "toggles showing whitespace characters
+"toggles showing whitespace characters
+nmap <leader>l :set list!<CR>
 
 "vim-gitgutter options
 if exists('&signcolumn')
