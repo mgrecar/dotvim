@@ -56,6 +56,8 @@ highlight clear SignColumn "sets the sign column to match the normal line backgr
 autocmd BufWritePre *.md,*.rb,*.py,*.js,*.coffee,*.go,*.rake :%s/\s\+$//e
 " Auto correct my fatal flaw
 autocmd BufWritePre *_spec.rb :%s/\srecieve(/ receive(/e
+" Treat Jenkinsfile as groovy syntax
+au BufNewFile,BufRead Jenkinsfile set filetype=groovy
 
 colors mizore
 
