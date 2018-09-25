@@ -19,6 +19,7 @@ Plugin 'hashivim/vim-terraform'
 Plugin 'rust-lang/rust.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'modille/groovy.vim'
 
 call vundle#end()
 
