@@ -70,3 +70,7 @@ au FileType xml foldopen!
 " Config for vim-markdown-preview plugin
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='Google Chrome'
+
+" Set backup and swap files in here, to avoid Dropbox thrashing
+set backupdir=~/.vim//,.
+set directory=~/.vim//,.
