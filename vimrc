@@ -74,3 +74,15 @@ let vim_markdown_preview_browser='Google Chrome'
 " Set backup and swap files in here, to avoid Dropbox thrashing
 set backupdir=~/.vim//,.
 set directory=~/.vim//,.
+
+" Enforce minimum Vim version for security
+if !has("patch-8.1.1365")
+  echom "WARNING: This version of Vim is not updated sufficiently to be secure, refusing to open."
+  echom "Please upgrade Vim to beyond 8.1.1365 immediately"
+  execute "q"
+endif
+
+" Disable modeline functionality for security sake
+set nomodeline
+set nomodelineexpr
+set modelines=0
