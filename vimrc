@@ -21,6 +21,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'modille/groovy.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'stephpy/vim-yaml'
 
 call vundle#end()
 
