@@ -22,6 +22,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'modille/groovy.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'stephpy/vim-yaml'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 
