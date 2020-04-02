@@ -88,3 +88,6 @@ endif
 set nomodeline
 set nomodelineexpr
 set modelines=0
+
+" Turn of the fucking bell noise
+set visualbell
