@@ -91,3 +91,6 @@ set modelines=0
 
 " Turn of the fucking bell noise
 set visualbell
+
+" Use `goimports` and not `gofmt` when running auto-format on save for Go files
+let g:go_fmt_command = "goimports"
