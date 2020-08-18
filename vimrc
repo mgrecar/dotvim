@@ -33,7 +33,7 @@ set nohlsearch "turns off search highlighting
 
 set tabstop=2 "no tabs, tabs instead are 2 spaces
 set shiftwidth=2
-set expandtab
+set expandtab "converts tabs to space equivalents, based on other settings
 set noswapfile
 
 "folding options
@@ -94,3 +94,13 @@ set visualbell
 
 " Use `goimports` and not `gofmt` when running auto-format on save for Go files
 let g:go_fmt_command = "goimports"
+
+" Allow for pasting but not pasting intend characters, because that breaks all
+" kinds of stuff. Bind this function to Ctrl+p
+function! Paste()
+  set paste
+  set expandtab
+  echom "Paste mode with converting indents enabled!"
+endfunction
+noremap <C-p> :call Paste()<CR>
+
