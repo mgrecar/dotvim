@@ -20,7 +20,6 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'modille/groovy.vim'
-Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'stephpy/vim-yaml'
 Plugin 'fatih/vim-go'
 
@@ -68,10 +67,6 @@ colors mizore
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 au FileType xml foldopen!
-
-" Config for vim-markdown-preview plugin
-let vim_markdown_preview_github=1
-let vim_markdown_preview_browser='Google Chrome'
 
 " Set backup and swap files in here, to avoid Dropbox thrashing
 set backupdir=~/.vim//,.
